@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="Images/Emblem7.png">
+    <style>
+        body {
+    margin: 0;
+    width: 1000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position-x: -1px;
+    background-position-y: -156px;
+    background-size: 1600px;
+     
+        }
+
+        ul {
+    padding: 90px;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;       
+        }
+
+        ul li {
+    box-sizing: border-box;
+    width: 15em;
+    height: 3em;
+    font-size: 20px;
+    border-radius: 0.5em;
+    margin: 0.5em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    line-height: 3em;
+    transition: 0.3s;
+    cursor: pointer;
+        }
+
+        ul li:nth-child(odd) {
+    background: linear-gradient(to right, red, tomato);
+    text-align: left;
+    padding-left: 10%;
+    transform: perspective(500px) rotateY(45deg);        
+        }
+
+        ul li:nth-child(even) {
+    background: linear-gradient(to left, red, tomato);
+    text-align: right;
+    padding-right: 10%;
+    transform: perspective(500px) rotateY(-45deg);       
+        }
+
+        ul li:nth-child(odd):hover {
+            transform: perspective(200px) rotateY(45deg);
+            padding-left: 5%;
+        }
+
+        ul li:nth-child(even):hover {
+            transform: perspective(200px) rotateY(-45deg);
+            padding-right: 5%;
+        }
+
+        .img {
+            width: 141px;
+            margin-right: 27px;
+            
+        }
+
+        h1 {
+            display: block;
+            font-size: 2.3em;
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 25px;
+            margin-inline-end: 50px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body background="Images/bg1.jpg">
+    <h1>Този сайт ще ви запознае с историята, стадиона, емблемата и играчите на ЦСКА</h1> 
+    <img class="img" src="Images/Emblem8.png" alt="Нашата емблема"><br>
+   <ul>
+    <li><a href="History.html">История</a></li>
+    <li><a href="StadiumEmblem.html">Стадион и емблема</a></li>
+    <li><a href="Lineup.html">Настоящ състав</a></li>
+    <li>contact</li>
+    <li>sth</li>
+   </ul> 
+</body>
+</html> 
